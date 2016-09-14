@@ -11,3 +11,5 @@ src/parser-ff/libff.a
 src/parser-ff/scan-fct_pddl.tab.c
 src/parser-ff/scan-ops_pddl.tab.c
 
+*.stats
+
