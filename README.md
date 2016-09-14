@@ -1,19 +1,19 @@
-PROBE: a planner for the Sequential, Satisficing track of IPC-7
-=============================================================
+# PROBE: a planner for the Sequential, Satisficing track of IPC-7
+
 N. Lipovetzky, H. Geffner
 Barcelona, 20th Jan 2011
-=============================================================
 
-CONTENTS:
+
+## CONTENTS:
 
 1. Some notes on building & PDDL support
 2. Running the planner
 3. Acknowledgements
 4. Questions and Feedback
 
-=============================================================
-1. SOME NOTES ON BUILDING & PDDL SUPPORT
-=============================================================
+
+## 1. SOME NOTES ON BUILDING & PDDL SUPPORT
+
 
 PROBE sources have been written in C++ compliant with g++ 4.4.3. The 
 planner just won't compile under g++ 3.x or g++ 4.0 due to some
@@ -48,9 +48,7 @@ in this directory to build the C++ components of the planner:
 
 The executable will be placed in the root folder.
 
-==============================================================
-2. RUNNING THE PLANNER
-==============================================================
+## 2. RUNNING THE PLANNER
 
 To run the planner, you can use the script "plan" in this
 directory with the following arguments:
@@ -78,9 +76,7 @@ Optional parameters:
       1                   PDDL parsing, ADL -> STRIPS, and preprocessing finishes
 
 
-==============================================================
-3. QUESTIONS AND FEEDBACK 
-==============================================================
+## 3. QUESTIONS AND FEEDBACK 
 
 Please feel free to e-mail us at nir.lipovetzky@upf.edu if you
 have any questions, encounter bugs, or would like to discuss any
@@ -89,9 +85,7 @@ issues regarding the planner.
 A description of PROBE can be found in "Searching for Plans with 
 Carefully Designed Probes", ICAPS-11.
 
-==============================================================
-4. ACKNOWLEDGEMENTS
-==============================================================
+## 4. ACKNOWLEDGEMENTS
 
 We would like to thank Jörg Hoffmann for making available Metric-FF
 sources, Miquel Ramirez who participated writing the code of C^3,
