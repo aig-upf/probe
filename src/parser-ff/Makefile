@@ -113,7 +113,7 @@ lint:
 # DO NOT DELETE
 
 main.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-main.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+main.o: /usr/include/sys/cdefs.h
 main.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 main.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 main.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -130,7 +130,7 @@ main.o: /usr/include/sys/times.h memory.h /usr/include/string.h output.h
 main.o: parse.h expressions.h inst_pre.h inst_easy.h inst_hard.h inst_final.h
 main.o: relax.h search.h
 memory.o: /usr/include/string.h /usr/include/features.h
-memory.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+memory.o: /usr/include/sys/cdefs.h
 memory.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 memory.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h ff.h
 memory.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -147,7 +147,7 @@ memory.o: /usr/include/strings.h /usr/include/ctype.h
 memory.o: /usr/include/sys/timeb.h /usr/include/sys/times.h memory.h
 memory.o: inst_pre.h
 output.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-output.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+output.o: /usr/include/sys/cdefs.h
 output.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 output.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 output.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -163,7 +163,7 @@ output.o: /usr/include/strings.h /usr/include/xlocale.h /usr/include/ctype.h
 output.o: /usr/include/sys/timeb.h /usr/include/sys/times.h utility.h
 output.o: output.h
 parse.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-parse.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+parse.o: /usr/include/sys/cdefs.h
 parse.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 parse.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 parse.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -179,7 +179,7 @@ parse.o: /usr/include/xlocale.h /usr/include/ctype.h /usr/include/sys/timeb.h
 parse.o: /usr/include/sys/times.h memory.h /usr/include/string.h output.h
 parse.o: parse.h
 expressions.o: /usr/include/string.h /usr/include/features.h
-expressions.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+expressions.o: /usr/include/sys/cdefs.h
 expressions.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 expressions.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h ff.h
 expressions.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -196,7 +196,7 @@ expressions.o: /usr/include/bits/sys_errlist.h /usr/include/strings.h
 expressions.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 expressions.o: /usr/include/sys/times.h output.h memory.h expressions.h
 inst_pre.o: /usr/include/string.h /usr/include/features.h
-inst_pre.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_pre.o: /usr/include/sys/cdefs.h
 inst_pre.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_pre.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h ff.h
 inst_pre.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -213,7 +213,7 @@ inst_pre.o: /usr/include/strings.h /usr/include/ctype.h
 inst_pre.o: /usr/include/sys/timeb.h /usr/include/sys/times.h output.h
 inst_pre.o: memory.h expressions.h inst_pre.h
 inst_easy.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-inst_easy.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_easy.o: /usr/include/sys/cdefs.h
 inst_easy.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_easy.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 inst_easy.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -230,7 +230,7 @@ inst_easy.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 inst_easy.o: /usr/include/sys/times.h output.h memory.h /usr/include/string.h
 inst_easy.o: expressions.h inst_pre.h inst_easy.h
 inst_hard.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-inst_hard.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_hard.o: /usr/include/sys/cdefs.h
 inst_hard.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_hard.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 inst_hard.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -247,7 +247,7 @@ inst_hard.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 inst_hard.o: /usr/include/sys/times.h output.h memory.h /usr/include/string.h
 inst_hard.o: expressions.h inst_pre.h inst_hard.h
 inst_final.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-inst_final.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_final.o: /usr/include/sys/cdefs.h
 inst_final.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_final.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 inst_final.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -264,7 +264,7 @@ inst_final.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 inst_final.o: /usr/include/sys/times.h output.h memory.h
 inst_final.o: /usr/include/string.h expressions.h inst_pre.h inst_final.h
 relax.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-relax.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+relax.o: /usr/include/sys/cdefs.h
 relax.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 relax.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 relax.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -280,7 +280,7 @@ relax.o: /usr/include/xlocale.h /usr/include/ctype.h /usr/include/sys/timeb.h
 relax.o: /usr/include/sys/times.h output.h memory.h /usr/include/string.h
 relax.o: expressions.h relax.h search.h
 search.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-search.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+search.o: /usr/include/sys/cdefs.h
 search.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 search.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 search.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -296,7 +296,7 @@ search.o: /usr/include/strings.h /usr/include/xlocale.h /usr/include/ctype.h
 search.o: /usr/include/sys/timeb.h /usr/include/sys/times.h output.h memory.h
 search.o: /usr/include/string.h expressions.h relax.h search.h
 utility.o: /usr/include/string.h /usr/include/features.h
-utility.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+utility.o: /usr/include/sys/cdefs.h
 utility.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 utility.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h utility.h ff.h
 utility.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -312,7 +312,7 @@ utility.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 utility.o: /usr/include/strings.h /usr/include/ctype.h
 utility.o: /usr/include/sys/timeb.h /usr/include/sys/times.h output.h
 libff.o: libff.h ff.h /usr/include/stdlib.h /usr/include/features.h
-libff.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+libff.o: /usr/include/sys/cdefs.h
 libff.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 libff.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 libff.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -329,7 +329,7 @@ libff.o: /usr/include/sys/times.h memory.h /usr/include/string.h output.h
 libff.o: parse.h expressions.h inst_pre.h inst_easy.h inst_hard.h
 libff.o: inst_final.h
 memory.o: /usr/include/string.h /usr/include/features.h
-memory.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+memory.o: /usr/include/sys/cdefs.h
 memory.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 memory.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h ff.h
 memory.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -346,7 +346,7 @@ memory.o: /usr/include/strings.h /usr/include/ctype.h
 memory.o: /usr/include/sys/timeb.h /usr/include/sys/times.h memory.h
 memory.o: inst_pre.h
 output.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-output.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+output.o: /usr/include/sys/cdefs.h
 output.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 output.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 output.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -362,7 +362,7 @@ output.o: /usr/include/strings.h /usr/include/xlocale.h /usr/include/ctype.h
 output.o: /usr/include/sys/timeb.h /usr/include/sys/times.h utility.h
 output.o: output.h
 parse.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-parse.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+parse.o: /usr/include/sys/cdefs.h
 parse.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 parse.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 parse.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -378,7 +378,7 @@ parse.o: /usr/include/xlocale.h /usr/include/ctype.h /usr/include/sys/timeb.h
 parse.o: /usr/include/sys/times.h memory.h /usr/include/string.h output.h
 parse.o: parse.h
 expressions.o: /usr/include/string.h /usr/include/features.h
-expressions.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+expressions.o: /usr/include/sys/cdefs.h
 expressions.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 expressions.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h ff.h
 expressions.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -395,7 +395,7 @@ expressions.o: /usr/include/bits/sys_errlist.h /usr/include/strings.h
 expressions.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 expressions.o: /usr/include/sys/times.h output.h memory.h expressions.h
 inst_pre.o: /usr/include/string.h /usr/include/features.h
-inst_pre.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_pre.o: /usr/include/sys/cdefs.h
 inst_pre.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_pre.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h ff.h
 inst_pre.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -412,7 +412,7 @@ inst_pre.o: /usr/include/strings.h /usr/include/ctype.h
 inst_pre.o: /usr/include/sys/timeb.h /usr/include/sys/times.h output.h
 inst_pre.o: memory.h expressions.h inst_pre.h
 inst_easy.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-inst_easy.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_easy.o: /usr/include/sys/cdefs.h
 inst_easy.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_easy.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 inst_easy.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -429,7 +429,7 @@ inst_easy.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 inst_easy.o: /usr/include/sys/times.h output.h memory.h /usr/include/string.h
 inst_easy.o: expressions.h inst_pre.h inst_easy.h
 inst_hard.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-inst_hard.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_hard.o: /usr/include/sys/cdefs.h
 inst_hard.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_hard.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 inst_hard.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -446,7 +446,7 @@ inst_hard.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 inst_hard.o: /usr/include/sys/times.h output.h memory.h /usr/include/string.h
 inst_hard.o: expressions.h inst_pre.h inst_hard.h
 inst_final.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-inst_final.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+inst_final.o: /usr/include/sys/cdefs.h
 inst_final.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 inst_final.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 inst_final.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -463,7 +463,7 @@ inst_final.o: /usr/include/ctype.h /usr/include/sys/timeb.h
 inst_final.o: /usr/include/sys/times.h output.h memory.h
 inst_final.o: /usr/include/string.h expressions.h inst_pre.h inst_final.h
 relax.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-relax.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+relax.o: /usr/include/sys/cdefs.h
 relax.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 relax.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 relax.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -479,7 +479,7 @@ relax.o: /usr/include/xlocale.h /usr/include/ctype.h /usr/include/sys/timeb.h
 relax.o: /usr/include/sys/times.h output.h memory.h /usr/include/string.h
 relax.o: expressions.h relax.h search.h
 search.o: ff.h /usr/include/stdlib.h /usr/include/features.h
-search.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+search.o: /usr/include/sys/cdefs.h
 search.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 search.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 search.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
@@ -495,7 +495,7 @@ search.o: /usr/include/strings.h /usr/include/xlocale.h /usr/include/ctype.h
 search.o: /usr/include/sys/timeb.h /usr/include/sys/times.h output.h memory.h
 search.o: /usr/include/string.h expressions.h relax.h search.h
 utility.o: /usr/include/string.h /usr/include/features.h
-utility.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+utility.o: /usr/include/sys/cdefs.h
 utility.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 utility.o: /usr/include/gnu/stubs-32.h /usr/include/xlocale.h utility.h ff.h
 utility.o: /usr/include/stdlib.h /usr/include/sys/types.h
@@ -511,7 +511,7 @@ utility.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 utility.o: /usr/include/strings.h /usr/include/ctype.h
 utility.o: /usr/include/sys/timeb.h /usr/include/sys/times.h output.h
 test_main.o: libff.h ff.h /usr/include/stdlib.h /usr/include/features.h
-test_main.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+test_main.o: /usr/include/sys/cdefs.h
 test_main.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
 test_main.o: /usr/include/gnu/stubs-32.h /usr/include/sys/types.h
 test_main.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
