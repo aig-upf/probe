@@ -13,6 +13,6 @@ common_env.Append( LINKFLAGS = "--static" )
 
 Export('common_env')
 src_objs = SConscript( 'src/SConscript', 'common_env' )
-if src_objs is None : print "src_objs is None"
+if src_objs is None : print("src_objs is None")
 
 common_env.Program( 'probe', src_objs )
