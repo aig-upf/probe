@@ -59,7 +59,7 @@ This script contain the settings used for PROBE in IPC-7
 
 To run another configuration of the planner use it in 
 the following way: 
-
+```
 Usage: ./probe -d <domain file> -i <instance file> -o <output file> [-axvp|-g:1]
 
 Mandatory parameters:
@@ -75,7 +75,7 @@ Optional parameters:
 -g <number>   Debugging - Stop execution when some process step completes:
       1                   PDDL parsing, ADL -> STRIPS, and preprocessing finishes
 
-
+```
 ## 3. QUESTIONS AND FEEDBACK 
 
 Please feel free to e-mail us at nir.lipovetzky@upf.edu if you
